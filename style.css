@@ -51,7 +51,7 @@ body{
     display: inline-block;
     margin-top: 10px;
     margin-left: 100px;
-    margin-right: 700px;
+    margin-right: 500px;
     height: 500px;
     width: 600px;
     background-color: ;
@@ -117,9 +117,8 @@ body{
     
 }
 .text{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    position: absolute;
+    left: 30px;
     margin-bottom: 300px;
     margin-right: 300px;
     margin-top: 150px;
@@ -176,7 +175,7 @@ body{
     border-radius: 10%;
     margin-top: 100px;
     margin-right: 300px;
-    margin-left: 400px;
+    margin-left: 250px;
 }
 .designing{
     border: 2px solid rgb(9, 153, 219);
@@ -294,8 +293,9 @@ h2{
     font-family: cursive;
 }
 .mpara{
+    margin-right: 30px;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
