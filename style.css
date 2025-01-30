@@ -2,6 +2,24 @@
     margin: 0;
     padding: 0;
 }
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#block {
+    animation: appear 1s ease-in-out both;
+    animation-timeline: scroll();
+    animation-range: entry 50% cover 50%;
+}
+
+}
 .rubik-vinyl-regular {
     font-family: "Rubik Vinyl", serif;
     font-weight: 400;
@@ -383,4 +401,7 @@ h2{
     position: relative;
     bottom: 80px;
 }
+
+
+
 
